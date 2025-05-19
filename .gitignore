@@ -1,0 +1,4 @@
+/.terraform/
+/poetry.lock
+/pyproject.toml
+/terraform.tfvars

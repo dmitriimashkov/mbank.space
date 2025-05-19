@@ -1,0 +1,19 @@
+# Example variables for Terraform. Replace values before use.
+
+hcloud_token    = "your_hcloud_token_here"
+server_type     = "cx32"
+server_location = "fsn1"
+
+ssh_public_key  = "/path/to/your/id_ed25519.pub"
+ssh_private_key = "/path/to/your/id_ed25519"
+
+
+# Coolify configuration
+coolify_token        = "your_coolify_api_token_here"
+coolify_url          = "http://<coolify_ip>:8000/api/v1"
+coolify_server_name  = "coolify"
+
+# Root user for Coolify
+root_username      = "your_username"
+root_user_email    = "your_email@example.com"
+root_user_password = "your_secure_password"
